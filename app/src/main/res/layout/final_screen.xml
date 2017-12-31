@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/win"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Congrats..."
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score is:"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:id="@+id/final_score"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/play_ag"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Play Again..."
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_margin="16dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

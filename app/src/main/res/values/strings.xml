@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QUIZ APP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spinner1_prompt">Any Category...</string>
+    <string name="spinner2_prompt">Any Difficulty...</string>
+    <string-array name="spinner1_entries">
+        <item>Select Difficulty...</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="spinner2_entries">
+        <item> Select Category...</item>
+        <item>General Knowledge</item>
+        <item>Books</item>
+        <item>Film</item>
+        <item>Music</item>
+        <item>Musical and Theater</item>
+        <item>Television</item>
+        <item>Video Games</item>
+        <item>Board Games</item>
+        <item>Science Nature</item>
+        <item>Science Computer</item>
+        <item>Science Mathematics</item>
+        <item>Sports</item>
+    </string-array>
+    <string name="title_activity_splash">Splash</string>
+</resources>
